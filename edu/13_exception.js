@@ -22,7 +22,7 @@
 //   throw new Error("강제로 예외 발생 시켰다.");
 //   console.log(2);
 // } catch (error) {
-//   console.log(error.error.stack);
+//   console.log(error.stack);
 // }
 //finally 예외 여부와 상관 없이 무조건 실행 되는 로직을 작성하기 위해 사용
 // try {
@@ -41,7 +41,7 @@
 // instanceof 연산자를 사용해서 구체적으로 처리
 //eval()<==이게 보이면 절대쓰지말기!!
 try {
-  throw new reportError();
+  throw new ReferenceError();
 } catch (error) {
   if (error instanceof SyntaxError) {
     console.log("싱텍스 에러");

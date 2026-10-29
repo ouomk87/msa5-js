@@ -23,10 +23,9 @@
   border-radius: 10px;
 }
 .card-img {
-  background: url(../img/img01.png) no-repeat center center;
   padding-top: 66%;
   /* aspect-ratio: 4/3; */
-  /* background-size: cover; */
+  background-size: cover;
 }
 .card-text {
   background-color: blueviolet;

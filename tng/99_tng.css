@@ -1,0 +1,19 @@
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  margin: 50px auto;
+  max-width: 1200px;
+  width: 100%;
+}
+.card-img {
+  background: url(../img/img01.png) no-repeat center center;
+  padding-top: 66%;
+  background-size: cover;
+}
+.card-text {
+  background-color: rgb(255, 187, 249);
+}
+.top_button {
+  position: fixed;
+}

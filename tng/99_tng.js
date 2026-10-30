@@ -5,7 +5,7 @@ const cardContainer = document.querySelector(".card-container");
 const BaseURL = "https://picsum.photos";
 const path = "/v2/list";
 
-let page = 1;
+let page = 1; //0으로 해도됨
 const limit = 3;
 
 nextBt.addEventListener("click", async (e) => {
